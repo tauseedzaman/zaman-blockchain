@@ -1,14 +1,18 @@
 {
-  "name": "blockchain",
-  "version": "1.0.0",
-  "description": "my first blockchain",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "tauseedzaman",
-  "license": "ISC",
-  "dependencies": {
-    "sha256": "^0.2.0"
-  }
+    "name": "blockchain",
+    "version": "1.0.0",
+    "description": "my first blockchain",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --watch dev -e js dev/api.js"
+    },
+    "author": "tauseedzaman",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "express": "^4.18.2",
+        "nodemon": "^2.0.22",
+        "sha256": "^0.2.0"
+    }
 }
